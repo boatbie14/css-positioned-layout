@@ -64,6 +64,18 @@ section#chat-container {
   background-color: #808080;
 }
 
+.friend-tail {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(-30deg);
+  border-radius: 50%;
+  box-shadow: -8px 8px 0px #808080;
+  z-index: 1;
+}
+
 button.cancel-btn {
   color: #fff;
   font-size: 14px;
