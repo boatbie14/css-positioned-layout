@@ -1,5 +1,39 @@
 body {
   font-family: "Kanit";
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
 }
 
-/* Start coding here */
+.bubbleTea{
+  position: relative;
+  border: 2px solid white;
+}
+
+.ads{
+  position: absolute;
+  width: 550px;
+  color: white; 
+  height: 150px;
+  top: 760px;
+  font-size: 26px;
+ 
+}
+
+.location{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: white;
+  height: 45px;
+  width: 75px;
+  top: 510px;
+  right: 300px;
+  background-color: gray;
+  
+}
