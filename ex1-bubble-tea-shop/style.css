@@ -15,25 +15,23 @@ body {
 
 .ads{
   position: absolute;
-  width: 550px;
+  width: 550px; 
   color: white; 
   height: 150px;
-  top: 760px;
+  top: 270px;
   font-size: 26px;
- 
 }
 
 .location{
+  position: absolute;
+  color: white;
+  width: 60px;
+  height: 40px;
+  top: 20px;
+  right: 30px; 
+  background-color: lightgray;
   display: flex;  
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  color: white;
-  height: 45px;
-  width: 75px;
-  top: 510px;
-  right: 300px;
-  background-color: gray;
-  
 }
