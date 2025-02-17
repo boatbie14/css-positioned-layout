@@ -29,11 +29,30 @@ section#chat-container {
   padding: 16px 16px;
   border-radius: 30px;
   font-size: 18px;
+  position: relative;
+}
+
+.chat-bubble p {
+  position: relative;
+  z-index: 2;
+  margin: 0px;
+  padding: 0px;
 }
 
 .mychat {
   background-color: #0bbe06;
-  border-radius: 999px;
+}
+
+.mychat-tail {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(30deg);
+  border-radius: 50%;
+  box-shadow: 8px 8px 0px #0bbe06;
+  z-index: 1;
 }
 
 .cancel {
